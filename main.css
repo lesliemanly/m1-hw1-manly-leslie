@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+  font-family: 'Chelsea Market', cursive;
+}
+
+header {
+	background: #008080;
+	position: top;
+  padding-bottom: 25px;
+}
+
+header nav ul li {
+	display: inline;
+	font-size: 1.25em;
+	font-weight: bold;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+  font-size: 1.75em;
+}
+
+main h2 {
+  display: flex;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding-top: 25px;
+  padding-bottom: 8px;
+}
+
+main p {
+  display: flex;
+  font-size: 1em;
+  padding-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-size: .75em;
+  padding-top: 300px;
+}
